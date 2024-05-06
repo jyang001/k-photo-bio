@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: url("background.png");
+  font-family: 'Poppins', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hotpink;
+  height: 3.75em;
+  margin: 0 auto;
+}
+ 
+nav > * {
+  padding: 0px 2px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav .heading {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav img {
+  width: 50px;
+  height: 40px;
+}
+
+main {
+  width: 100%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+.card-section {
+  display: grid;
+  grid-template-columns: (2, 1fr);
+  grid-template-rows: (8, 1fr);
+  grid-gap: 10px;
+  padding: 20px 20px 10px 10px;
+  margin-bottom: 20px;
+  place-self: center;
+  background-color: rgb(90, 226, 201);
+  border-bottom: 3px solid black;
+  color: purple;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-section img {
+  grid-column: 1/1;
+  grid-row: 1/8;
+  width: 160px;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.card-group {
+  grid-column: 2/2;
+  grid-row: 1/2;
+}
+
+.card-heading {
+  background-color: darksalmon;
+  color: navy;
+  grid-column: 2/2;
+  grid-row: 2/3;
+}
+
+.card-price {
+  grid-column: 2/2;
+  grid-row: 3/4;
+}
+
+.card-kor-name {
+  grid-column: 2/2;
+  grid-row: 4/5;
+}
+
+.card-dob {
+  grid-column: 2/2;
+  grid-row: 5/6;
+}
+
+.card-album {
+  grid-column: 2/2;
+  grid-row: 6/7;
 }
