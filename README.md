@@ -4,6 +4,10 @@ This project lists Photocards of various K-Pop artists with facts of each artist
 
 it is a modified solution to the Travel Journal solo project on [Scrimba](https://scrimba.com/learn/learnjavascript/)
 
+## Screenshot
+
+![k-photo-blog](https://github.com/jyang001/k-photo-bio/assets/31452709/0b4cbe00-7ec6-45db-adea-437574390db6)
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -15,11 +19,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
