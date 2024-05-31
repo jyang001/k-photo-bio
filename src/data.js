@@ -19,4 +19,14 @@ export default [
         years_active: "2022 - present",
         dob: "May 7, 2004"
     },
+    {
+        key: 3,
+        imgUrl: "ive-gaeul-photocard.jpg",
+        group: "IVE",
+        eng_name: "Gaeul",
+        kor_name: "가을",
+        latest_album: "Ive Switch",
+        years_active: "2021 - present",
+        dob: "September 24th, 2002"
+    },
 ]
